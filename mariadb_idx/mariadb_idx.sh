@@ -15,7 +15,7 @@ load data local infile '$2'
 into table B
 fields terminated by ','
 ignore 1 lines;
-create index sort on B(B1,B2,B3);
+create index sort on B(B3 asc,B1,B2);
 EOF
 
 
