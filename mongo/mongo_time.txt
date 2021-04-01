@@ -1,0 +1,295 @@
+working with database bs/A-100.csv, dbs/B-100-3-1.csv
+running queries at 1 time
+0
+0
+0
+3
+running queries at 2 time
+0
+0
+0
+3
+running queries at 3 time
+0
+0
+0
+3
+running queries at 4 time
+0
+0
+0
+3
+running queries at 5 time
+0
+0
+0
+3
+running queries at 6 time
+0
+0
+0
+2
+running queries at 7 time
+0
+0
+0
+3
+working with database bs/A-100.csv, dbs/B-100-5-2.csv
+running queries at 1 time
+0
+0
+0
+4
+running queries at 2 time
+0
+0
+0
+4
+running queries at 3 time
+0
+0
+0
+4
+running queries at 4 time
+0
+0
+0
+4
+running queries at 5 time
+0
+0
+0
+4
+running queries at 6 time
+0
+0
+0
+4
+running queries at 7 time
+0
+0
+0
+4
+working with database bs/A-100.csv, dbs/B-100-10-4.csv
+running queries at 1 time
+0
+0
+0
+6
+running queries at 2 time
+0
+0
+0
+8
+running queries at 3 time
+0
+0
+0
+6
+running queries at 4 time
+0
+0
+0
+7
+running queries at 5 time
+0
+0
+0
+7
+running queries at 6 time
+0
+0
+0
+6
+running queries at 7 time
+0
+0
+0
+7
+working with database bs/A-1000.csv, dbs/B-1000-5-2.csv
+running queries at 1 time
+0
+3
+3
+46
+running queries at 2 time
+0
+5
+5
+64
+running queries at 3 time
+0
+4
+2
+43
+running queries at 4 time
+0
+3
+3
+38
+running queries at 5 time
+0
+4
+3
+38
+running queries at 6 time
+0
+3
+3
+41
+running queries at 7 time
+0
+3
+3
+43
+working with database bs/A-1000.csv, dbs/B-1000-10-4.csv
+running queries at 1 time
+0
+6
+6
+74
+running queries at 2 time
+0
+6
+5
+70
+running queries at 3 time
+0
+5
+4
+72
+running queries at 4 time
+0
+8
+7
+73
+running queries at 5 time
+0
+6
+5
+81
+running queries at 6 time
+0
+10
+13
+155
+running queries at 7 time
+0
+7
+5
+75
+working with database bs/A-1000.csv, dbs/B-1000-50-3.csv
+running queries at 1 time
+0
+27
+33
+416
+running queries at 2 time
+0
+40
+23
+449
+running queries at 3 time
+0
+34
+32
+458
+running queries at 4 time
+0
+123
+38
+359
+running queries at 5 time
+0
+37
+25
+316
+running queries at 6 time
+0
+31
+22
+314
+running queries at 7 time
+0
+33
+23
+310
+working with database bs/A-10000.csv, dbs/B-10000-5-4.csv
+running queries at 1 time
+0
+40
+37
+391
+running queries at 2 time
+0
+42
+34
+401
+running queries at 3 time
+0
+45
+33
+404
+running queries at 4 time
+0
+40
+34
+405
+running queries at 5 time
+0
+43
+36
+420
+running queries at 6 time
+0
+44
+37
+398
+running queries at 7 time
+0
+42
+35
+434
+working with database bs/A-10000.csv, dbs/B-10000-50-3.csv
+running queries at 1 time
+0
+334
+200
+2925
+running queries at 2 time
+0
+342
+207
+2966
+running queries at 3 time
+0
+377
+206
+3011
+running queries at 4 time
+0
+343
+205
+2902
+running queries at 5 time
+0
+352
+214
+2902
+running queries at 6 time
+0
+352
+198
+2993
+running queries at 7 time
+0
+343
+204
+2931
+working with database bs/A-10000.csv, dbs/B-10000-500-1.csv
+running queries at 1 time
+0
+running queries at 2 time
+0
+running queries at 3 time
+0

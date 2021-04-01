@@ -1,0 +1,48 @@
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("eae96e1a-b837-4556-8ab1-0f0f0763dfe7") }
+MongoDB server version: 4.4.4
+switched to db mongo_db
+{
+	"queryPlanner" : {
+		"plannerVersion" : 1,
+		"namespace" : "mongo_db.A",
+		"indexFilterSet" : false,
+		"parsedQuery" : {
+			"A1" : {
+				"$lte" : 50
+			}
+		},
+		"winningPlan" : {
+			"stage" : "EOF"
+		},
+		"rejectedPlans" : [ ]
+	},
+	"executionStats" : {
+		"executionSuccess" : true,
+		"nReturned" : 0,
+		"executionTimeMillis" : 0,
+		"totalKeysExamined" : 0,
+		"totalDocsExamined" : 0,
+		"executionStages" : {
+			"stage" : "EOF",
+			"nReturned" : 0,
+			"executionTimeMillisEstimate" : 0,
+			"works" : 1,
+			"advanced" : 0,
+			"needTime" : 0,
+			"needYield" : 0,
+			"saveState" : 0,
+			"restoreState" : 0,
+			"isEOF" : 1
+		}
+	},
+	"serverInfo" : {
+		"host" : "bullst",
+		"port" : 27017,
+		"version" : "4.4.4",
+		"gitVersion" : "8db30a63db1a9d84bdcad0c83369623f708e0397"
+	},
+	"ok" : 1
+}
+bye
