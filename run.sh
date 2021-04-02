@@ -37,7 +37,7 @@ fi
 if [ $# -eq 0 ]; then
     rm -rf mongo/*.txt
 else
-    if [ $1 = 'mongodb' ]; then
+    if [ $1 = 'mongo' ]; then
         rm -rf mongo/*.txt
     fi
 fi
@@ -79,7 +79,7 @@ do
                         echo 'running on ' dbs/A-${size[$i]}.csv dbs/B-${size[$i]}-${arr[$id]}-$r.csv
                         bash mariadb/mariadb.sh dbs/A-${size[$i]}.csv dbs/B-${size[$i]}-${arr[$id]}-$r.csv
                     ;;
-                    'mongodb')
+                    'mongo')
                         echo 'running on ' dbs/A-${size[$i]}.csv dbs/B-${size[$i]}-${arr[$id]}-$r.csv
                         bash mongo/mongo.sh dbs/A-${size[$i]}.csv dbs/B-${size[$i]}-${arr[$id]}-$r.csv
                     ;;
