@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import os
 import pandas as pd
 import dataframe_image as dfi
+import math
 
 from sys import argv
 from uncertainties import ufloat
@@ -10,6 +11,14 @@ from uncertainties import ufloat
 
 if not os.path.exists('graph'):
     os.makedirs('graph')
+
+def round_up(n, decimals=0): 
+    multiplier = 10 ** decimals 
+    return math.ceil(n * multiplier) / multiplier
+
+def round_down(n, decimals=0): 
+    multiplier = 10 ** decimals 
+    return math.floor(n * multiplier) / multiplier
 
 query = {}
 
@@ -60,8 +69,8 @@ def scan_time(engine):
                     query_time[q].sort()
                     # print(query_time[q])
 
-                    avg_time = int(np.mean(query_time[q][1:-1]))
-                    std_dev = int(np.std(query_time[q][1:-1]))
+                    avg_time = round_up(np.mean(query_time[q][1:-1]),1)
+                    std_dev = round_down(np.std(query_time[q][1:-1]),0)
 
                     insert_into(q, database, engine, avg_time, std_dev)
 
@@ -71,7 +80,7 @@ for engine in engines:
 
 for q in query:
 
-    fig, (time) = plt.subplots(1, figsize= (15,10)) # add 2 on place of 1 
+    fig, (time) = plt.subplots(1, figsize= (13,8)) # add 2 on place of 1 
 
     fig.suptitle('query' + str(q + 1))
     
@@ -80,17 +89,17 @@ for q in query:
     #std.set_title("std dev graph")
 
     for engine in engines:
-        time.errorbar(query[q][engine]['databases'], query[q][engine]['time'] , query[q][engine]['std'], label = engine)
+        time.errorbar(query[q][engine]['databases'], [t if t > 1 else 1 for t in query[q][engine]['time']] , query[q][engine]['std'], label = engine)
         # std.plot(query[q][engine]['databases'], query[q][engine]['std'] , label = engine)
     
-    time.set(xlabel = 'database engine', ylabel = 'time in milliseconds')
+    time.set(xlabel = 'database sizes', ylabel = 'time in milliseconds (log10 scale)')
     #std.set(xlabel = 'database engine', ylabel = 'time in milliseconds')
 
     time.legend()
     #std.legend()
 
     # if q==1 or q == 3:
-    #     time.set_yscale("log")
+    time.set_yscale("log")
 
     fig.tight_layout()
 

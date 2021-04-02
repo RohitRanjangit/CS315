@@ -64,7 +64,7 @@ do
                 bash sqlite/sqlite3.sh dbs/A-${size[$i]}.csv dbs/B-${size[$i]}-${arr[$id]}-$r.csv 3>&1 1>dump.txt 2>&1
                 bash mariadb_idx/mariadb_idx.sh dbs/A-${size[$i]}.csv dbs/B-${size[$i]}-${arr[$id]}-$r.csv
                 bash mariadb/mariadb.sh dbs/A-${size[$i]}.csv dbs/B-${size[$i]}-${arr[$id]}-$r.csv
-                bash mongo/mongo.sh bs/A-${size[$i]}.csv dbs/B-${size[$i]}-${arr[$id]}-$r.csv
+                bash mongo/mongo.sh dbs/A-${size[$i]}.csv dbs/B-${size[$i]}-${arr[$id]}-$r.csv
             else
                 case $1 in
                     'sqlite')
@@ -81,7 +81,7 @@ do
                     ;;
                     'mongodb')
                         echo 'running on ' dbs/A-${size[$i]}.csv dbs/B-${size[$i]}-${arr[$id]}-$r.csv
-                        bash mongo/mongo.sh bs/A-${size[$i]}.csv dbs/B-${size[$i]}-${arr[$id]}-$r.csv
+                        bash mongo/mongo.sh dbs/A-${size[$i]}.csv dbs/B-${size[$i]}-${arr[$id]}-$r.csv
                     ;;
                 esac
         fi

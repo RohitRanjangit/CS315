@@ -31,9 +31,11 @@ source mariadb_idx/dummy.sql;
 EOF
 mariadb << EOF > mariadb_idx/query${num}_output.txt
 use mariadb_idx;
+reset query cache;
 set profiling = 1;
 source mariadb_idx/query${num}.sql;
 show profiles;
+reset query cache;
 EOF
 python3 clean.py mariadb_idx mariadb_idx/query${num}_output.txt
 done

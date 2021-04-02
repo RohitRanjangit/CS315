@@ -1,6 +1,6 @@
 MongoDB shell version v4.4.4
 connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
-Implicit session: session { "id" : UUID("eae96e1a-b837-4556-8ab1-0f0f0763dfe7") }
+Implicit session: session { "id" : UUID("510cfe86-01fc-498c-b865-8eede7cc68f4") }
 MongoDB server version: 4.4.4
 switched to db mongo_db
 {
@@ -14,27 +14,40 @@ switched to db mongo_db
 			}
 		},
 		"winningPlan" : {
-			"stage" : "EOF"
+			"stage" : "COLLSCAN",
+			"filter" : {
+				"A1" : {
+					"$lte" : 50
+				}
+			},
+			"direction" : "forward"
 		},
 		"rejectedPlans" : [ ]
 	},
 	"executionStats" : {
 		"executionSuccess" : true,
-		"nReturned" : 0,
-		"executionTimeMillis" : 0,
+		"nReturned" : 50,
+		"executionTimeMillis" : 3,
 		"totalKeysExamined" : 0,
-		"totalDocsExamined" : 0,
+		"totalDocsExamined" : 10000,
 		"executionStages" : {
-			"stage" : "EOF",
-			"nReturned" : 0,
+			"stage" : "COLLSCAN",
+			"filter" : {
+				"A1" : {
+					"$lte" : 50
+				}
+			},
+			"nReturned" : 50,
 			"executionTimeMillisEstimate" : 0,
-			"works" : 1,
-			"advanced" : 0,
-			"needTime" : 0,
+			"works" : 10002,
+			"advanced" : 50,
+			"needTime" : 9951,
 			"needYield" : 0,
-			"saveState" : 0,
-			"restoreState" : 0,
-			"isEOF" : 1
+			"saveState" : 10,
+			"restoreState" : 10,
+			"isEOF" : 1,
+			"direction" : "forward",
+			"docsExamined" : 10000
 		}
 	},
 	"serverInfo" : {

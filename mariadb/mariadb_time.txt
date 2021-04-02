@@ -3,37 +3,37 @@ running queries at 1 time
 0
 0
 0
-4
+3
 running queries at 2 time
 0
 0
 0
-0
+3
 running queries at 3 time
 0
 0
 0
-0
+3
 running queries at 4 time
 0
 0
 0
-0
+3
 running queries at 5 time
 0
 0
 0
-0
+3
 running queries at 6 time
 0
+1
 0
-0
-0
+3
 running queries at 7 time
 0
 0
 0
-0
+3
 working with database dbs/A-100.csv, dbs/B-100-5-2.csv
 running queries at 1 time
 0
@@ -44,190 +44,281 @@ running queries at 2 time
 0
 0
 0
-0
+4
 running queries at 3 time
 0
 0
 0
-0
+5
 running queries at 4 time
 0
 0
 0
-0
+4
 running queries at 5 time
 0
 0
 0
-0
+4
 running queries at 6 time
 0
 0
 0
-0
+4
 running queries at 7 time
 0
 0
 0
-0
+4
 working with database dbs/A-100.csv, dbs/B-100-10-4.csv
 running queries at 1 time
 0
 1
 0
-8
+7
 running queries at 2 time
 0
+1
 0
-0
-0
+7
 running queries at 3 time
 0
+1
 0
-0
-0
+8
 running queries at 4 time
 0
+1
 0
-0
-0
+8
 running queries at 5 time
 0
+1
 0
-0
-0
+7
 running queries at 6 time
 0
+1
 0
-0
-0
+12
 running queries at 7 time
 0
+1
 0
-0
-0
+8
 working with database dbs/A-1000.csv, dbs/B-1000-5-2.csv
 running queries at 1 time
 0
-9
-4
-420
+12
+3
+474
 running queries at 2 time
 0
-0
-0
-0
+11
+3
+447
 running queries at 3 time
 0
-0
-0
-0
+12
+3
+481
 running queries at 4 time
 0
-0
-0
-0
+15
+3
+423
 running queries at 5 time
 0
-0
-0
-0
+9
+3
+431
 running queries at 6 time
 0
-0
-0
-0
+8
+2
+359
 running queries at 7 time
 0
-0
-0
-0
+8
+2
+365
 working with database dbs/A-1000.csv, dbs/B-1000-10-4.csv
 running queries at 1 time
 0
-17
+15
 4
-783
+700
 running queries at 2 time
 0
-0
-0
-0
+15
+4
+670
 running queries at 3 time
 0
-0
-0
-0
+15
+4
+661
 running queries at 4 time
 0
-0
-0
-0
+16
+4
+745
 running queries at 5 time
 0
-0
-0
-0
+15
+4
+637
 running queries at 6 time
 0
-0
-0
-0
+15
+4
+663
 running queries at 7 time
 0
-0
-0
-0
+16
+4
+671
 working with database dbs/A-1000.csv, dbs/B-1000-50-3.csv
 running queries at 1 time
 0
-95
+77
 17
-3587
+3674
 running queries at 2 time
 0
-2
-0
-3
+88
+20
+3893
 running queries at 3 time
 0
-2
-0
-3
+126
+49
+4009
 running queries at 4 time
 0
-2
-0
-3
+127
+20
+3768
 running queries at 5 time
 0
-2
-0
-3
+78
+18
+4035
 running queries at 6 time
-0
-2
-0
-3
+1
+131
+28
+3772
 running queries at 7 time
 0
-5
-0
-4
+93
+20
+3876
 working with database dbs/A-10000.csv, dbs/B-10000-5-4.csv
 running queries at 1 time
-3
-116
-30
-33212
+5
+121
+39
+45999
 running queries at 2 time
-0
-2
-0
+5
+106
+33
+45906
 running queries at 3 time
-0
-3224000
-0
+5
+133
+28
+44469
 running queries at 4 time
-0
-2
+4
+94
+45
+46413
+running queries at 5 time
+4
+146
+34
+45622
+running queries at 6 time
+4
+111
+30
+45279
+running queries at 7 time
+5
+85
+28
+38964
+working with database dbs/A-10000.csv, dbs/B-10000-50-3.csv
+running queries at 1 time
+3
+898
+200
+296422
+running queries at 2 time
+5
+1295
+176
+277326
+running queries at 3 time
+3
+836
+194
+283516
+running queries at 4 time
+3
+897
+210
+291849
+running queries at 5 time
+6
+1010
+157
+281929
+running queries at 6 time
+4
+927
+193
+279740
+running queries at 7 time
+4
+1093
+221
+282228
+working with database dbs/A-10000.csv, dbs/B-10000-500-1.csv
+running queries at 1 time
+3
+23703
+1961
+2790065
+running queries at 2 time
+4
+28041
+2009
+2687896
+running queries at 3 time
+3
+22923
+1856
+2700961
+running queries at 4 time
+3
+23967
+1766
+2686255
+running queries at 5 time
+4
+24027
+1713
+2689160
+running queries at 6 time
+3
+23037
+1618
+2693188
+running queries at 7 time
+3
+25858
+1680
+2727648
