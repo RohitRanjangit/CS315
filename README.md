@@ -1,6 +1,6 @@
 # How to Run Scripts?
 
-The engines names are : `[sqlite, mariadb_idx, mariadb, mongodb]` 
+The engines names are : `[sqlite, mariadb_idx, mariadb, mongo]` 
 
 **To run queries for all engines for 7 runs**
 

@@ -106,6 +106,21 @@ for q in query:
     plt.savefig('graph/'  + 'query' + str(q + 1) + '.png')
     plt.close()
 
+query_name = ['query' + str(q + 1) for q in query]
+plt.figure(figsize= (13,8))
+plt.title('time for last set of databases')
+for engine in engines:
+    times =[]
+    for q in query:
+        times += [query[q][engine]['time'][-1]]
+    plt.plot(query_name, [t if t >1 else 1 for t in times], label=engine)
+plt.xlabel("Queries")
+plt.ylabel("time in milliseconds (log10 scale)")
+plt.legend()
+plt.yscale('log')
+plt.savefig('graph/'  + 'query.png')
+plt.close()
+    
 
 database_time_table = {}
 index = [[], []]
