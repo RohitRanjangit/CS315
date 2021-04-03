@@ -1,5 +1,7 @@
 # How to Run Scripts?
 
+**To run all the scripts make sure you’ve all sets of data files in the directory named  $ dbs/ $   (without forward slash).**
+
 The engines names are : `[sqlite, mariadb_idx, mariadb, mongo]` 
 
 **To run queries for all engines for 7 runs**
